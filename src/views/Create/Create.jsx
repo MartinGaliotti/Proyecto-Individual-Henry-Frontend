@@ -1,3 +1,4 @@
+import Styles from "./Create.module.css";
 import FormStats from "../../components/FormStats/FormStats";
 import FormTypes from "../../components/FormTypes/FormTypes";
 import FormComplete from "../../components/FormComplete/FormComplete";
@@ -6,7 +7,6 @@ import { useState } from "react";
 import axios from "axios";
 import URL from "../../helpers/URL";
 import BackToLanding from "../../components/BackToLanding/BackToLanding";
-import Styles from "./create.module.css";
 
 let aux = true;
 
