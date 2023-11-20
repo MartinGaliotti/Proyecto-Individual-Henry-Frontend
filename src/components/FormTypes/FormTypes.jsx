@@ -1,6 +1,6 @@
 import Styles from "./FormTypes.module.css";
 import { formState } from "../../views/Create/consts";
-import actions from "./Consts";
+import actions from "./consts";
 import Error from "../Error/Error";
 import Loading from "../Loading/Loading";
 import { useSelector } from "react-redux";
