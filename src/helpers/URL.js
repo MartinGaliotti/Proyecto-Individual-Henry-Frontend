@@ -1,5 +1,5 @@
 const URL = {
-  BaseUrl: "http://localhost:3001",
+  BaseUrl: "https://proyecto-individual-pokemon-backend.onrender.com",
   Types: "/types",
   Pokemons: "/pokemons",
 };
