@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background: url(../../assets/fondoInicio.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 0.1em;
+  justify-content: center;
+  justify-items: center;
+}

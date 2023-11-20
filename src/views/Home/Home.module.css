@@ -1,0 +1,6 @@
+.container {
+  background: url(../../assets/fondoInicio.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding-bottom: 4.5em;
+}

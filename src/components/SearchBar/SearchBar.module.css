@@ -1,0 +1,38 @@
+.search {
+  display: inline-block;
+  position: relative;
+}
+
+.search .input {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search .button {
+  background-color: #4e99e9;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.9s ease;
+}
+
+.search .button:hover {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+  background-color: blue;
+}
+
+.button {
+  height: 2.25em;
+  background: url(../../assets/lupa.png) no-repeat center center;
+  background-size: 50%;
+}

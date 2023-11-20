@@ -1,0 +1,90 @@
+.container {
+  --ancho: 70vw;
+  display: flex;
+  width: var(--ancho);
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: calc(50% - (var(--ancho) / 2));
+  z-index: 999;
+}
+
+.buttonText {
+  --color: 180 0 0;
+  border-radius: 0.5em;
+  transition: 0.3s;
+  background-color: rgba(146, 146, 228, 0.422);
+  color: rgb(var(--color));
+  fill: rgb(var(--color));
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: x-large;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  border: 2px solid rgb(var(--color));
+  box-shadow: 0 0 10px rgba(var(--color), 0.4);
+  outline: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 0.5em 1em;
+  max-width: 7em;
+}
+
+.buttonText:hover {
+  box-shadow: 0 0 0 5px rgba(var(--color), 0.5);
+  max-width: 10em;
+}
+
+.buttonText .text {
+  transform: scale(0.8);
+  transition: 0.3s;
+}
+
+.buttonText:hover .text {
+  transform: scale(1);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.buttonText .icon {
+  font-size: 0;
+  transform: scale(0.5) translateX(0%) rotate(-180deg);
+  transition: 0.3s;
+}
+
+.buttonText:hover .icon {
+  font-size: 20px;
+  transform: scale(1) translateX(20%) rotate(0deg);
+}
+
+.buttonText:active {
+  transition: 0s;
+  box-shadow: 0 0 0 5px rgb(var(--color));
+}
+
+.numberContainer {
+  display: flex;
+  gap: 2em;
+}
+
+.numberButton,
+.numberActualButton {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 100px;
+  border: 2px solid;
+}
+
+.numberActualButton {
+  background-color: aqua;
+}
+
+.numberButton:hover,
+.numberActualButton:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+}

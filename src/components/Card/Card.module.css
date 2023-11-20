@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    49deg,
+    rgba(59, 7, 7, 0.9756888168557536) 0%,
+    rgba(134, 36, 36, 0.9367909238249594) 100%
+  );
+  min-height: 10em;
+  width: 10em;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgType {
+  height: 3em;
+  width: 3em;
+  margin: 0;
+}
+
+.pokemonImage {
+  margin: 0;
+  width: 8em;
+  height: 8em;
+}
+.name {
+  font-size: x-large;
+  font-weight: 900;
+}

@@ -1,0 +1,82 @@
+.container {
+  background: url(../../assets/fondoInicio.jpg) no-repeat center center;
+  background-size: cover;
+  height: min(640px);
+  width: 100vw;
+  padding-top: 0.1em;
+  padding-bottom: 2em;
+}
+
+.pokemonContainer {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  border-radius: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.name {
+  font-size: 50px;
+  margin: 0;
+}
+
+.imageContainer {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  max-height: 250px;
+  display: flex;
+  align-items: center;
+  gap: 5em;
+}
+
+.image {
+  max-width: 250px;
+}
+
+.typeImage {
+  --imageSize: 8em;
+  height: var(--imageSize);
+  width: var(--imageSize);
+}
+.typesTitle {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 30px;
+}
+.types {
+  margin-top: 0;
+  display: grid;
+  width: 100vw;
+  grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.type {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+.statsList {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+.textStat {
+  font-size: medium;
+  margin: 0;
+  margin-top: 0.2em;
+}
+
+/*  */

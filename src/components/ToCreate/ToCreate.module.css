@@ -1,0 +1,17 @@
+.container {
+  position: fixed;
+  z-index: 999;
+  bottom: 0.2em;
+  right: 1em;
+}
+.button {
+  border-radius: 100px;
+  background: url(../../assets/toCreateBackground.png) no-repeat center center;
+  background-size: cover;
+  height: 3em;
+  width: 3em;
+  border: 2px solid black;
+}
+.button:hover {
+  transform: scale(1.2);
+}

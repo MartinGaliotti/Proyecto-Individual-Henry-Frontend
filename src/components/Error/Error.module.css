@@ -1,0 +1,49 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1em;
+  background: url(../../assets/fondoInicio.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.text {
+  display: block;
+  margin-bottom: 1em;
+}
+.error {
+  display: block;
+  font-size: 2em;
+}
+
+.back,
+.retry {
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #40b3a2;
+  min-width: 200px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 16px 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.back:hover,
+.retry:hover {
+  opacity: 0.95;
+  transition: 0.3s;
+  transform: scale(1.05);
+}
