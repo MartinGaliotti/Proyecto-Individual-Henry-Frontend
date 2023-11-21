@@ -156,7 +156,7 @@ const Detail = (props) => {
                   <label>{type}</label>
                   <img
                     className={Styles.typeImage}
-                    src={`../src/assets/pokemonTypesImage/${type}.png`}
+                    src={`/public/pokemonTypesImage/${type}.png`}
                     alt={type}
                   />
                 </li>
