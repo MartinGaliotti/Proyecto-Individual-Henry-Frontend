@@ -72,7 +72,7 @@ const FormTypes = (props) => {
         <div className={Styles.typeContainer} key={key}>
           <img
             className={Styles.typeImage}
-            src={`./src/assets/pokemonTypesImage/${type}.png`}
+            src={`/pokemonTypesImage/${type}.png`}
             alt={type}
           />
           <div className={Styles.type}>{type}</div>
