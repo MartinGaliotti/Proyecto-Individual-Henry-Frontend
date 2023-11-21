@@ -14,7 +14,7 @@ const Card = (props) => {
             <img
               className={Styles.imgType}
               key={key}
-              src={`/public/pokemonTypesImage/${type}.png`} //./src/assets/pokemonTypesImage/${type}.png
+              src={`./public/pokemonTypesImage/${type}.png`} //./src/assets/pokemonTypesImage/${type}.png
               alt={`${type}`}
             />
           );
