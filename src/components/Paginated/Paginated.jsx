@@ -66,7 +66,7 @@ const Paginated = () => {
             key={i}
             name={number}
             value={i}
-            onClick={changePage}
+            onClick={() => changePage(number)}
           >
             {i + 1}
           </button>
